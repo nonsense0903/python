@@ -1,0 +1,3 @@
+my_list = [13, 48, 56, 9, 144,196, 228, 204,]
+result = list(filter(lambda x: (x % 12 == 0), my_list))
+print("Numbers divisible by 12 are",result)
